@@ -6,14 +6,14 @@ ICO think share toolkit
 ```console
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-- [x] brew install ghostscript
-- [x] brew install imagemagic
+- [x] install ghostscript commandline
+- [x] install imagemagic commandline
  ```console 
   brew install ghostscript
   brew install imagemagic
   ```
-- [x] mkdir ico-images
-- [x] convert -density 600  think-check-share-toolkit.pdf -quality 100 ico-images/image.png
+- [x] make directory ico-images
+- [x] extract images from pdf and keep the quality
 
  ```console 
   mkdir ico-images
